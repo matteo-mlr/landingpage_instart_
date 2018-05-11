@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>InstArt</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+  </head>
+
+  <body>
+    <header>
+        <p>InstArt</p>
+
+        <nav>
+          <ul>
+            <li><a href="#unser_konzept"></a>UNSER KONZEPT</li>
+            <li><div class="kreis"></div></li>
+            <li><a href="#über_uns"></a>ÜBER UNS</li>
+            <li><div class="kreis"></div></li>
+            <li><a href="http://www.instagram.com/mationdesign"><img src="img/instagram.png" alt="Instagram"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      (function () {
+        var documentElem = $(document),
+            nav = $('nav'),
+            lastScrollTop = 0;
+
+        documentElem.on('scroll', function () {
+            var currentScrollTop = $(this).scrollTop();
+
+            if (currentScrollTop > lastScrollTop)
+            nav.addClass('hidden');
+
+            else nav.removeClass('hidden');
+
+            lastScrollTop = currentScrollTop;
+        });
+      }) ();
+
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      (function () {
+        var documentElem = $(document),
+            header = $('header'),
+            lastScrollTop = 0;
+
+        documentElem.on('scroll', function () {
+            var currentScrollTop = $(this).scrollTop();
+
+            if (currentScrollTop > lastScrollTop)
+            header.addClass('hidden');
+
+            else header.removeClass('hidden');
+
+            lastScrollTop = currentScrollTop;
+        });
+      }) ();
+
+
+    </script>
+
+    <!---- HOME ---->
+
+    <section id="home">
+      <hr>
+      <h1>Projektmanagement</h1>
+      <h2>Für Musiker</h2>
+      <h3>im 21. Jahrhundert</h3>
+      <!-- <div id="bg-kreis">
+      </div> -->
+      <div id="mehr">
+        <h4>Mehr erfahren</h4>
+      </div>
+    </section>
+
+    <!---- UNSER KONZEPT ---->
+
+    <section id="unser_konzept">
+      <nav>
+        <ul>
+          <li><a href="#unser_konzept"></a>UNSER KONZEPT</li>
+          <li><div class="kreis"></div></li>
+          <li><a href="#über_uns"></a>ÜBER UNS</li>
+          <li><div class="kreis"></div></li>
+          <li><a href="http://www.instagram.com/mationdesign"><img src="img/instagram.png" alt="Instagram"></a></li>
+        </ul>
+      </nav>
+
+      <hr>
+
+      <img src="img/screenshot.png" alt="screenshot">
+
+
+      <h5>ALLES</h5>
+      <h2></h2>
+      <h3></h3>
+    </section>
+
+
+  </body>
+</html>

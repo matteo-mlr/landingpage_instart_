@@ -1,0 +1,200 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+hr {
+  border-style: none;
+}
+
+section {
+  min-height: 100%;
+}
+
+/**** HOME ****/
+
+#bg-kreis {
+  height: 900px;
+  width: 900px;
+  background-color: #28CEAB;
+  border-radius: 100%;
+  float: right;
+  z-index: -2;
+}
+
+nav.hidden {
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+header.hidden {
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#instart {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: red;
+}
+
+header p {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 120px;
+  float: left;
+  color: #141414;
+}
+
+nav ul {
+  float: right;
+  margin-right: 120px;
+  margin-top: 60px;
+}
+
+nav ul .kreis {
+  height: 6px;
+  width: 6px;
+  background-color: #141414;
+  border-radius: 100%;
+  transform: translateY(75%);
+}
+
+nav ul li {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #141414;
+  list-style-type: none;
+  margin-right: 30px;
+  float: left;
+}
+
+nav ul li img {
+  width: 25px;
+  transform: translateY(-15%);
+}
+
+h1 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 70px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 17%;
+  margin-bottom: 0px;
+  z-index: 2;
+}
+
+h2 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transform: translateY(-25%);
+  z-index: 2;
+}
+
+h3 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+  transform: translateY(75%);
+  z-index: 2;
+}
+
+h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  color: #141414;
+  font-size: 14pt;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  float: left;
+  margin-left: 70px;
+  margin-top: 360px;
+}
+
+#unser_konzept {
+  background-color: #101010;
+}
+
+#unser_konzept img {
+  float: right;
+  transform: translateY(-60%);
+  margin-right: 105px;
+
+#mehr:hover {
+  transform: translateY(-10px);
+  transition: 100ms;
+  transition-timing-function: ease-in-out;
+}
+
+/**** UNSER KONZEPT ****/
+
+h5 {
+  font-family: Roboto;
+  font-size: 50px;
+  text-align: center;
+  transform: translateX(-20%);
+}
+
+#unser_konzept nav {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#unser_konzept nav ul {
+  float: right;
+  margin-right: 120px;
+  margin-top: 60px;
+}
+
+#unser_konzept nav ul .kreis {
+  height: 6px;
+  width: 6px;
+  background-color: #141414;
+  border-radius: 100%;
+  transform: translateY(75%);
+}
+
+#unser_konzeptnav ul li {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #141414;
+  list-style-type: none;
+  margin-right: 30px;
+  float: left;
+}
